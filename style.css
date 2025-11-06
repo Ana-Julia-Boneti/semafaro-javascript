@@ -11,7 +11,6 @@ h1{
     background-color: #222;
     padding: 20px;
     margin: 0 auto 20px auto;
-    border-radius: 20px;
 }
 .luz{
     width: 60px;
@@ -23,23 +22,23 @@ h1{
 }
 
 #botoes button{
-    margin:5px;
+    margin: 5px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    cursor:poiuter;
+    cursor: pointer;
     font-size: 16px;
 }
-/* Cor do botão*/
+ 
+#btnVermelho {background-color: #da0000;}
+#btnAmarelo {background-color: #ffd633;}
+#btnVerde {background-color: #5cd65c;}
+#btnAutomático {background-color: grey;}
+#btnParar {background-color: grey;}
 
-#btnVermelho {background-color:#ff4c4c}
-btnAmarelo {background-color:#ffd633;}
-btnVerde {background-color:#5cd65c;}
-btnAuto {background-color:#ccc;}
-btnParar {background-color:limegreen;}
+/* Estilo das luzes acesas*/
 
-/* estilo das luzes acessas*/
-
-.acesa.vermelha {background-color:red;}
-.acesa.vermelha {background-color:yellow;}
-.acesa.vermelha {background-color:green;}
+.acesa.vermelha {background-color: red;}
+.acesa.amarela {background-color: yellow;}
+.acesa.verde {background-color: green;}
+/*
